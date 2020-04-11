@@ -31,4 +31,7 @@ function mytheme_enqueue_scripts() {
 	wp_enqueue_script ( 'font-awesome-js' );
 }
 
+require_once 'ajax.php';
+require_once 'general.php';
+
 ?>

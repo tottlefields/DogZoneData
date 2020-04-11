@@ -88,7 +88,6 @@
         				get_currentuserinfo();
         				?>
         				<p class="navbar-text">Hi, <?php echo $current_user->user_firstname; ?></p>
-						<!-- <li class="topbar-user"><span style="padding:15px;">Hi, <?php echo $current_user->user_firstname; ?></span></li>  -->
 					<?php if(current_user_can('administrator')) { ?>
 						<li><a href="<?php echo admin_url(); ?>"><i class="fa fa-lock"></i>Admin</a></li>
 					<?php } ?>
