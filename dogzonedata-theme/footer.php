@@ -1,11 +1,11 @@
-					
-					<div class="clearfix"></div>
-				</main><!--/#content.col-sm-9.col-md-10-->
-				<!-- end: Content -->
 
-			</div><!--/row-->
-		</div><!--/.container-fluid-->
-		
+
+		<footer class="footer mt-auto py-3">
+		  <div class="container">
+		    <span class="text-muted">Place sticky footer content here.</span>
+		  </div>
+		</footer>
+
 		
 		<!-- start: JavaScript-->
 		<script>
