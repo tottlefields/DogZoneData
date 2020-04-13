@@ -67,6 +67,8 @@
 	href="<?php echo get_template_directory_uri() . '/assets/css/bootstrap.min.css'; ?>"
 	type='text/css'>
 		<?php wp_head(); ?>
+		
+		<link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet" type='text/css'>
 </head>
 <body class="d-flex flex-column h-100">
 
@@ -90,12 +92,14 @@
 				</ul>
 			</div> -->
 			<div>
-<?php if(is_user_logged_in()) { 
-        global $current_user;
-        get_currentuserinfo();
-?>
+<?php
+
+if (is_user_logged_in ()) {
+	global $current_user;
+	wp_get_current_user();
+	?>
 <span class="navbar-text d-none d-lg-inline mx-2">Hi, <?php echo $current_user->user_firstname; ?></span>
-<a href="#" class="btn btn-sm btn-secondary">Log Out</a>
+				<a href="#" class="btn btn-sm btn-secondary">Log Out</a>
 <?php } else {?>
 <a href="#" class="btn btn-sm btn-secondary">Log In</a>
 <?php  } ?>
@@ -105,5 +109,5 @@
 	<!-- end: Header -->
 
 
-<main role="main" class="flex-shrink-0">
-  <div class="container-fluid" style="padding-top:60px;">
+	<main role="main" class="flex-shrink-0">
+		<div class="container-fluid" style="padding-top: 75px;">

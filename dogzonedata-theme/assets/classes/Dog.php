@@ -5,7 +5,7 @@ class Dog {
 	var $dogColour;
 
 	// initializes the value of screensize,ram,company and processor
-	function Dog() {
+	function __construct() {
 		$this->name = 'Kylo';
 		$this->color = 'Black';
 		$this->dogColour = 'Sable';

@@ -21,3 +21,11 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 @import url('//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/css/bootstrap-editable.css');
 @import url('//cdnjs.cloudflare.com/ajax/libs/summernote/0.8.10/summernote.css');
 */
+
+
+.dog img{
+  border:2px solid black;
+  background-color: black;
+  width:100px;
+}
+.dog h5.card-title { text-transform: uppercase; }
