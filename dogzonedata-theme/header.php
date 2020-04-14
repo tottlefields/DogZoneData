@@ -7,12 +7,12 @@
 <meta name="author" content="Ellen Schofield">
 
 <link rel="manifest"
-	href="<?php echo get_template_directory_uri(); ?>/assets/icons/manifest.json">
+	href="<?php echo get_template_directory_uri(); ?>/assets/manifest.json">
 
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="application-name" content="dennis">
-<meta name="apple-mobile-web-app-title" content="dennis">
+<meta name="application-name" content="DogZoneData">
+<meta name="apple-mobile-web-app-title" content="DogZoneData">
 <meta name="theme-color" content="#7f5ca3">
 <meta name="msapplication-navbutton-color" content="#7f5ca3">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
