@@ -6,7 +6,6 @@
 	
 <?php //require_once 'floating-action-button.php';?>
 
-
 	<div class="container">
 		<div class="row">
 			<div class="col">
