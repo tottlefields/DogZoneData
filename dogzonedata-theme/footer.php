@@ -4,7 +4,7 @@
 
 <footer class="footer fixed-bottom mt-auto py-3 bg-light text-center">
 	
-<?php //require_once 'floating-action-button.php';?>
+<?php require_once 'floating-action-button.php';?>
 
 	<div class="container">
 		<div class="row">

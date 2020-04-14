@@ -63,4 +63,7 @@
 	</div>
 </div>
 
+
+<?php get_template_part('modals/modal', 'basic'); ?>
+
 <?php get_footer(); ?>

@@ -29,3 +29,12 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
   width:100px;
 }
 .dog h5.card-title { text-transform: uppercase; }
+
+
+.floating-action-button {
+	border-radius: 50%;
+	position: fixed;
+	bottom: 95px;
+	right: 15px;
+	z-index: 10;
+ }
