@@ -22,7 +22,7 @@
 					style="border: 2px solid #663399; background-color: #663399">
 				<h5 class="card-title" style="color: #663399">Lexey</h5>
 				<p class="card-text">14th October 2013<br />
-				Borde Collie<br />
+				Border Collie<br />
 				12.40kg (29/02/20)</p>
 			</div>
 		</div>
