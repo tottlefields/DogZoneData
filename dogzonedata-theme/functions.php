@@ -38,8 +38,9 @@ function dzd_enqueue_scripts() {
 	wp_enqueue_script ( 'datepicker-js' );
 	
 	// Font Awesome v5
-	wp_register_script ( 'font-awesome-js', ("https://kit.fontawesome.com/237e51052f.js"), false, '5.0.0', true );
-	wp_enqueue_script ( 'font-awesome-js' );
+	
+	//wp_register_script ( 'font-awesome-js', ("https://kit.fontawesome.com/237e51052f.js"), false, '5.0.0', true );
+	//wp_enqueue_script ( 'font-awesome-js' );
 }
 
 
